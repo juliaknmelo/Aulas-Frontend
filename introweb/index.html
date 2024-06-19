@@ -5,31 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Pessoal</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+CO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dosis:wght@200..800&family=Playwrite+CO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <ul id="menu">
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="contato.html">Contato</a>
-      </li>
-    </ul>
-
-    <h1 class="title">Sobre mim</h1>
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
 
     <div class="container">
-      <div class="p-30">
+      <h1 class="title">Sobre mim</h1>
+
+      <div class="about">
         <p class="center">
-          Olá, eu sou a Julia Melo. <br>
-          Atualmente estou em transição de carreira da área de Nutrição para a
+          Olá, eu sou a Julia Melo, <br />
+          atualmente estou em transição de carreira da área de Nutrição para a
           área de tecnologia, em busca de oportunidade como Pessoa
           Desenvolvedora Java Junior, onde poderei aplicar habilidades de
           atenção aos detalhes e proatividade na resolução de problemas e
-          desenvolvendo algoritmos eficientes.
-          Estou cursando o terceiro bloco
-         do curso de Desenvolvedor Full Stack Java na Instituição Generation,
+          desenvolvendo algoritmos eficientes. Estou cursando o terceiro bloco
+          do curso de Desenvolvedor Full Stack Java na Instituição Generation,
           onde estou atuando com banco de dados SQL, Java, Spring e React.
           Possuo também conhecimento da linguagem JavaScript e uso de HTML e
           CSS. Possuo experiência na área de controle de qualidade e
@@ -38,24 +57,35 @@
           responsável pelas análises financeiras da unidade.
         </p>
 
-        
+        <div class="imagens">
+          <img
+            class="br-50 wh-300 p-30"
+            src="./assets/img/imag.webp"
+            alt="tela de código de um desenvolvimento de software"
+          />
+        </div>
       </div>
 
-      <div>
-        <img
-          class="br-50 wh-300 p-30"
-          src="./assets/img/imag.webp"
-          alt="tela de código de um desenvolvimento de software"
-        />
-      </div>
+      <div></div>
     </div>
 
-    <h2 class="center">Meu video predileto:</h2>
-    <div class="container">
+    <h2 class="video">Músicas para estudar</h2>
+    <div class="videos">
       <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/pIsS9c0qpA0?si=YNrQQmGH-alMaNcy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mmKguZohAck?si=2gtdGBpJ5OtqYYjU"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
