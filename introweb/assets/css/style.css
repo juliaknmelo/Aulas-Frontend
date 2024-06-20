@@ -10,27 +10,71 @@ body {
 }
 
 body form {
-  flex-direction: column;
+  /* flex-direction: column; */
+  
   padding-top: 10px;
   margin-left: 10px;
-  font-size: 20px;
-  font-family:"Dosis", sans-serif ;
-}
-
-.endereco{
-    margin-left: 10px;
-  font-size: 20px;
-  font-family:"Dosis", sans-serif ;
+  font-family:"Playfair Display", seriff ;
+  
   
 }
 
-.contato {
-  /* text-align: center; */
+#txtNome{
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+#txtAssunto{
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+#txtEmail{
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+
+body label {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  
+}
+
+#nome{
+  border: solid 2px rgba(247, 111, 142, 0.54);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#email{
+  border: solid 2px rgba(247, 111, 142, 0.54);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#assunto{
+  border: solid 2px rgba(247, 111, 142, 0.54);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
+.contato{
+  display: flex;
+  margin: 0;
+  border: 0;
+  justify-content: center;
+  
+}
+
+.title2 {
+  text-align: center;
   font-size: 30px;
   margin-top: 50px;
   font-family: "Playwrite CO", cursive;
   font-size: 50px;
-  margin-left: 10px;
+  margin-bottom: 50px;
 }
 
 #menu {
@@ -68,7 +112,6 @@ body form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -84,7 +127,7 @@ body form {
   display: flex;
   align-items: center;
   font-size: 25px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .center {
@@ -126,6 +169,32 @@ body form {
   gap: 30px;
 }
 
+
+.container2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.endereco{
+  padding-left: 100px;
+  margin: 0;
+  border: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.endereco p {
+  margin: 10px;
+}
+
+.endereco h3{
+margin: 0 !important;
+}
 /*
 Estilos da pagina index
 */
